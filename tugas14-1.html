@@ -1,0 +1,28 @@
+<!-- Tugas 14 HTML -->
+<!-- Muhammad Rizwan -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas 14-1</title>
+</head>
+<body>
+
+    <h1>Form Element</h1>
+    <br><br>
+    
+    <form action="/tugas14-2.html">
+        <input type="text" placeholder="Nama" name="nama" required oninvalid="setCustomValidity('Nama mohon diisi')"><br><br>
+        <input type="text" placeholder="Cita-cita" name="citacita" required oninvalid="setCustomValidity('Cita-cita mohon diisi')"><br><br>
+        <input type="tel" pattern="[0-9]{12}" maxlength="12" placeholder="No HP" name="nomor" required oninvalid="setCustomValidity('No HP mohon diisi')"><br><br>
+        <textarea placeholder="Alamat" name="alamat" cols="60" rows="10" oninvalid="setCustomValidity('Alamat mohon diisi')"></textarea><br><br>
+        <input type="submit" value="Simpan">
+    </form>
+
+    <p>Semoga ilmu yang dipelajari berkah - Tugas 14-1</p>
+    
+</body>
+</html>
